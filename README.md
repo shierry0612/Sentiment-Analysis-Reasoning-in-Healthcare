@@ -68,9 +68,9 @@ ASR quality can be evaluated with:
 - **ViT5** (and optional fine-tuned checkpoint)
 
 ### 3) Decoder-only LLMs (prompting / LoRA adapters)
-- **Qwen3-8B**
+- **Qwen3.5B**
 - **Vistral-7B**
-- **Llama-3.x-8B**
+- **Llama-3.5B**
 (loaded with 4-bit quantization + PEFT adapters)
 
 ---
