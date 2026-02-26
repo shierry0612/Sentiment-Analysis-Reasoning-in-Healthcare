@@ -40,8 +40,6 @@ Hugging Face dataset:
 
 ## Pipeline Overview
 
-## Pipeline Overview
-
 ![Sentiment Reasoning Pipeline](sentiment_reasoning_pipeline.png)
 
 ### A) Speech pipeline (multimodal)
