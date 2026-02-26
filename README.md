@@ -18,8 +18,6 @@ The demo supports both:
 - Title: *Sentiment Reasoning for Healthcare* (arXiv:2407.21054)
 - Task: sentiment classification + rationale generation for both speech & text.
 
-Please cite the original paper if you use the dataset or ideas.
-
 ---
 
 ## Dataset
@@ -60,17 +58,17 @@ ASR quality can be evaluated with:
 ## Models in this project
 
 ### 1) Encoder (classification baselines)
-- **PhoBERT** (Vietnamese RoBERTa-style encoder)
-- **ViHealthBERT** (Vietnamese medical-domain BERT)
+- **PhoBERT** 
+- **ViHealthBERT** 
 
 ### 2) Encoder–Decoder (label + rationale generation)
 - **BARTPho**
 - **ViT5** (and optional fine-tuned checkpoint)
 
 ### 3) Decoder-only LLMs (prompting / LoRA adapters)
-- **Qwen3.5B**
+- **Qwen3B**
 - **Vistral-7B**
-- **Llama-3.5B**
+- **Llama-3B**
 (loaded with 4-bit quantization + PEFT adapters)
 
 ---
