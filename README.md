@@ -93,6 +93,8 @@ Install dependencies:
 pip install -U datasets transformers accelerate peft bitsandbytes safetensors sentencepiece pandas huggingface_hub
 pip install soundfile sherpa-onnx onnxruntime-gpu librosa scikit-learn
 
+```
+## Team Members
 | Full Name            | University |
 |----------------------|-------------|
 | Mai Thị Kim Ngân     | University of Science – VNUHCM (HCMUS) |
