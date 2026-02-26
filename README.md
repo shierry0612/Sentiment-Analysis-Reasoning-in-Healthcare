@@ -88,10 +88,13 @@ This makes parsing + scoring easy.
 
 ## Installation
 
-### Option 1 — Google Colab (recommended)
-This repo was developed and demoed on Colab with GPU.
-
 Install dependencies:
 ```bash
 pip install -U datasets transformers accelerate peft bitsandbytes safetensors sentencepiece pandas huggingface_hub
 pip install soundfile sherpa-onnx onnxruntime-gpu librosa scikit-learn
+
+| Full Name            | University |
+|----------------------|-------------|
+| Mai Thị Kim Ngân     | University of Science – VNUHCM (HCMUS) |
+| Lê Nguyễn Quỳnh Anh  | University of Science – VNUHCM (HCMUS) |
+| Hồ Trần Anh Thư      | University of Science – VNUHCM (HCMUS) |
