@@ -42,7 +42,7 @@ Hugging Face dataset:
 
 ## Pipeline Overview
 
-![Sentiment-Analysis-Reasoning-in-Healthcare](assets/sentiment-reasoning-pipeline.png)
+![Sentiment Reasoning Pipeline](sentiment_reasoning_pipeline.png)
 
 ### A) Speech pipeline (multimodal)
 `audio` → **ASR** → `transcript` → (Encoder / Seq2Seq / LLM) → `LABEL + RATIONALE`
